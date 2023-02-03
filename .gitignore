@@ -1,0 +1,11 @@
+*.mp3
+*.mp4
+*.wav
+*.jpg
+*.jpeg
+*.gif
+*.png
+*.pyc
+.idea/
+__pycache__/
+*.env

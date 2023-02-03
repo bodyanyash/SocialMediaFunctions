@@ -1,0 +1,139 @@
+POST /api/public/email-unique HTTP/1.1
+Host: api.hybe.com
+Connection: close
+Content-Length: 33
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+content-type: application/json
+Accept: */*
+Origin: https://hybe.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://hybe.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+{ "email": "23423@anonmails.de" }
+
+
+
+
+
+______________________________________
+
+
+
+
+
+OPTIONS /api/public/nickname-unique/23423 HTTP/1.1
+Host: api.hybe.com
+Connection: close
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: content-type
+Origin: https://hybe.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: https://hybe.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+
+
+____________________________________
+
+
+
+OPTIONS /api/public/user HTTP/1.1
+Host: api.hybe.com
+Connection: close
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: https://hybe.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: https://hybe.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+
+________________________________________
+
+
+POST /api/public/user HTTP/1.1
+Host: api.hybe.com
+Connection: close
+Content-Length: 204
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+content-type: application/json
+Accept: */*
+Origin: https://hybe.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://hybe.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+{"email":"23423@anonmails.de","nickname":"23423", "friendReferralCode": "", "giftGivingIdentifier": "","legalConsent":true,"promoConsent":false,"cid":"2012610584.1613445454","registrationMethod": "EMAIL"}
+
+
+
+__________________________________________
+
+
+POST /api/public/user HTTP/1.1
+Host: api.hybe.com
+Connection: close
+Content-Length: 204
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+content-type: application/json
+Accept: */*
+Origin: https://hybe.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://hybe.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+{"email":"23423@anonmails.de","nickname":"23423", "friendReferralCode": "", "giftGivingIdentifier": "","legalConsent":true,"promoConsent":false,"cid":"2012610584.1613445454","registrationMethod": "EMAIL"}
+
+
+
+
+
+
+
+
+______________________________________________
+
+
+POST /api/public/user HTTP/1.1
+Host: api.hybe.com
+Connection: close
+Content-Length: 206
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+content-type: application/json
+Accept: */*
+Origin: https://hybe.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://hybe.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+{"email":"qwert1@anonmails.de","nickname":"qwert1", "friendReferralCode": "", "giftGivingIdentifier": "","legalConsent":true,"promoConsent":false,"cid":"2012610584.1613445454","registrationMethod": "EMAIL"}
+
+
+
+
+
